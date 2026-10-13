@@ -1,0 +1,24 @@
+{
+  "name": "iterasys---estudo-de-caso",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test:ca": "playwright test tests/CA001_acesso_area_aluno.spec.js tests/CA002_visualizacao_cursos.spec.js tests/CA003_acesso_conteudo_aula.spec.js",
+    "test:ct": "playwright test tests/CT002_acessar_curso.spec.js",
+    "test:all": "playwright test"
+  },
+  "keywords": [],
+  "dependencies": {
+    "dotenv": "^18.0.6",
+    "markdown-table": "^3.0.4",
+    "playwright": "^1.63.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.4"
+  }
+}
